@@ -1,0 +1,24 @@
+{
+  "name": "cncut",
+  "version": "1.0.0",
+  "description": "Chinese word segmentation tool based on javascript【基于javascript的中文分词工具】",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shataniya/cncut.git"
+  },
+  "keywords": [
+    "jieba",
+    "cncut",
+    "Participle"
+  ],
+  "author": "shataniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shataniya/cncut/issues"
+  },
+  "homepage": "https://github.com/shataniya/cncut#readme"
+}
