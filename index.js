@@ -5,9 +5,11 @@ const { cut, read_dic } = require("./read_dic")
 const path = require("path")
 const fs = require("fs")
 
+const __dic_path = path.join(process.cwd(), "node_modules", "cncut", "dict.json")
+
 // 创建一个类用于封装
 function cncut(dic){
-    var dic = dic || "./dict.json"
+    var dic = dic || __dic_path
     if(!(this instanceof cncut)){
         return new cncut(dic)
     }
@@ -55,7 +57,7 @@ cncut.prototype.cut = function(text){
 
 // var cn = cncut()
 // cn.add_dic("./extra.txt")
-// console.log(cn.cut("这个地方是我的"))
+// console.log(cn.cut("我是这个世界上最帅的男人").join("/"))
 
 module.exports = cncut
 
